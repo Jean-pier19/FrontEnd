@@ -1,0 +1,34 @@
+.contenedor_cv {
+    padding: 10px;
+}
+.cabecera {
+padding: 10px;
+}
+.contenido_principal{
+padding: 10px;
+display: flex;
+}
+.barra_lateral{
+padding: 10px;
+width: 20%;
+}
+.informacion{
+padding: 10px;
+width: 80%;
+}
+.pie_de_pagina{
+padding: 10px;
+display: flex
+}
+.correo{
+padding: 10px;
+width: 33%;
+}
+.telefono{
+padding: 10px;
+width: 33%;
+}
+.direccion{
+padding: 10px;
+width: 33%;
+}
