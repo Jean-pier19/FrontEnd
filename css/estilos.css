@@ -6,7 +6,7 @@ padding: 10px;
 }
 .contenido_principal{
 padding: 10px;
-display: flex;
+display:flex
 }
 .barra_lateral{
 padding: 10px;
@@ -18,7 +18,7 @@ width: 80%;
 }
 .pie_de_pagina{
 padding: 10px;
-display: flex
+display:flex
 }
 .correo{
 padding: 10px;
