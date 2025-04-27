@@ -1,9 +1,12 @@
 .contenedor_cv {
-    padding: 10px;
+    padding: 15px;
+    border: #e83e8c solid;
+    margin: 20px;
 }
 
 .cabecera {
 padding: 10px;
+border:10px solid #e83e8c
 }
 
 .contenido_principal{
@@ -13,12 +16,14 @@ display:flex
 
 .barra_lateral{
 padding: 10px;
-width: 50%;
+width: 30%;
+border:10px solid #e83e8c
 }
 
 .informacion{
 padding: 10px;
-width: 100%;
+width: 70%;
+border:10px solid #e83e8c
 }
 
 .pie_de_pagina{
@@ -26,17 +31,21 @@ padding: 10px;
 display:flex
 }
 
+
 .correo{
 padding: 10px;
 width: 33%;
+border:10px solid #e83e8c
 }
 
 .telefono{
 padding: 10px;
 width: 33%;
+border:10px solid #e83e8c
 }
 
 .direccion{
 padding: 10px;
 width: 33%;
+border:10px solid #e83e8c
 }
