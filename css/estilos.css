@@ -1,5 +1,5 @@
 .body{
-    background-color:#00e3bd;
+    background-color:#F5F5DC;
 }
 
 .contenedor_cv {
@@ -8,18 +8,18 @@
     border-style:double;
     border-width: 10px;
     border-color: black;
-    border-radius: 15px;
+    border-radius: 20px;
     margin: 50px;
 }
 
 .cabecera {
-background-color:#00e3bd;
+background-color:#FFFDD0;
 padding: 15px;
 display: flex;
 align-items: center;
-border:10px solid #ffffff;
-border-radius: 15px;
+border-radius: 20px;
 border-width: 5px;
+margin-bottom: 20px;
 }
 
 
@@ -39,22 +39,22 @@ display:flex
 }
 
 .barra_lateral{
-background-color:#00e3bd;
+background-color:#FFFDD0;
 padding:10px;
 width: 30%;
-border:10px solid #ffffff;
 border-width: 5px;
-border-radius: 15px;
-margin-right: 15px;
+border-radius: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
 }
 
 .informacion{
-background-color: #00e3bd;
+background-color: #FFFDD0;
 padding: 10px;
 width: 100%;
-border:10px solid #ffffff;
 border-width: 5px;
-border-radius: 15px;
+border-radius: 20px;
+margin-bottom: 20px;
 }
 
 .experiencia_laboral{
@@ -71,28 +71,25 @@ color:black;
 }
 
 .correo{
-background-color: #00e3bd;
+background-color: #FFFDD0;
 padding: 15px;
-border:10px solid #ffffff;
-border-radius: 15px;
+border-radius: 20px;
 border-width: 5px;
 margin-right: 15px;
 }
 
 .telefono{
-background-color: #00e3bd;
+background-color: #FFFDD0;
 padding: 15px;
-border:10px solid #ffffff;
 border-width: 5px;
-border-radius: 15px;
+border-radius: 20px;
 margin-right: 15px;
 }
 
 .direccion{
-background-color: #00e3bd;
+background-color: #FFFDD0;
 padding: 15px;
-border:10px solid #ffffff;
 border-width: 5px;
-border-radius: 15px;
+border-radius: 20px;
 margin-right: 15px;
 }
