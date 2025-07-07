@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gestión Todos</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="./js/todo.js"></script>
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="user.html">Gestión Usuarios</a></li>
+    <li><a href="todo.html">Gestión Todos</a></li>
+  </ul>
+</nav>
+
+<main class="form-container">
+  <h1>Gestión Todos</h1>
+
+  <form id="todoForm">
+    <label>User ID:
+      <input type="number" id="userId" name="userId" />
+      <span id="error-userId" class="error"></span>
+    </label>
+
+    <label>Título:
+      <input type="text" id="title" name="title" />
+      <span id="error-title" class="error"></span>
+    </label>
+
+    <label>Completado:
+      <select id="completed" name="completed">
+        <option value="false">No</option>
+        <option value="true">Sí</option>
+      </select>
+      <span class="error"></span>
+    </label>
+
+    <div class="buttons">
+      <button type="submit">Guardar</button>
+      <button type="button" id="cancelTodo">Cancelar</button>
+    </div>
+  </form>
+</main>
+
+</body>
+</html>

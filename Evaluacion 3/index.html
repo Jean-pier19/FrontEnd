@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <link rel="stylesheet" href="https://cdn.datatables.net/v/dt/dt-2.3.2/datatables.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/v/dt/dt-2.3.2/datatables.min.js"></script>
+    <script src="./js/script.js"></script>
+
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="user.html">Gestión Usuarios</a></li>
+            <li><a href="todo.html">Gestión Todos</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Visualización de Datos</h1>
+
+        <label for="dataSelect">Selecciona los datos:</label>
+        <select id="dataSelect">
+            <option value="users">Usuarios</option>
+            <option value="posts">Publicaciones</option>
+            <option value="todos">Todos</option>
+        </select>
+
+        <button id="loadDataBtn">Cargar Datos</button>
+
+        <table id="dataTable" class="display" style="width:100%">
+            <thead>
+                <tr></tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </main>
+
+</body>
+</html>
