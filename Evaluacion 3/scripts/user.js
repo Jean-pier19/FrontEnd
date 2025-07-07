@@ -43,7 +43,7 @@ $(document).ready(function(){
     var fecha = $("#fecha").val().trim();
     var fechaRegex = /^\d{2}\/\d{2}\/\d{4}$/;
     if(!fecha) mostrarError("fecha", "La fecha es obligatoria.");
-    else if(!fechaRegex.test(fecha)) mostrarError("fecha", "Formato de fecha inválido (dd/MM/yyyy).");
+    
     else limpiarError("fecha");
 
     var email = $("#email").val().trim();
